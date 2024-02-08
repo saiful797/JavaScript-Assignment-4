@@ -1,5 +1,7 @@
 function checkName(name) {
 
+    console.log(typeof name);
+
     if(typeof name === 'string'){
 
         if(( name[name.length-1].charCodeAt()>=65 &&  name[name.length-1].charCodeAt() <= 90 ) || ( name[name.length-1].charCodeAt() >= 97 &&  name[name.length-1].charCodeAt() <= 122 ) ){
@@ -19,4 +21,4 @@ function checkName(name) {
     else return "invalid";
 }
 
-console.log(checkName("[“Rashed”]"));
+console.log(checkName("Rashed"));

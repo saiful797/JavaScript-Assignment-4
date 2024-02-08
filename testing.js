@@ -44,6 +44,8 @@ function deleteInvalids(array){
 
         for(const arr of array){
 
+            //console.log(isNaN(arr));
+
             if(typeof arr === "number" &&  !isNaN(arr)) newArray.push(arr);
             else continue;
         }
@@ -104,7 +106,8 @@ function monthlySavings(arr , livingCost) {
 
 
 
-    console.log("........................................................");
+
+console.log("........................................................");
     console.log("........................................................");
     console.log("........................................................");
     console.log("........................................................");
@@ -145,5 +148,3 @@ function monthlySavings(arr , livingCost) {
     console.log("........................................................");
     console.log("........................................................");
     console.log("........................................................");
-
-    
